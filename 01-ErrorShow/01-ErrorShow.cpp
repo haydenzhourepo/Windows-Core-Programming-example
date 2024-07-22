@@ -121,14 +121,14 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 void testAnWindowsError(HWND hWnd) {
     // in watch window add "@err" can look the error code
     // in watch window add "@err,hr" can look the error description
-    // 100 is not a 
+    // 100 is not a valid child window ID
     auto childHwnd = GetDlgItem(hWnd, 100);
     auto errId = GetLastError();
     
 }
 
 void HandleErrorCodeLookup(HWND hWnd) {
-    testAnWindowsError(hWnd);
+    //testAnWindowsError(hWnd);
     // find child window's window handler
     auto hwndEdit = GetDlgItem(hWnd, ID_ET_ERROR);
     auto hwndResultText = GetDlgItem(hWnd, ID_RESULT_TEXT);
