@@ -3,3 +3,9 @@ x64
 .vs
 
 *.user
+
+Debug
+*.log
+*/Debug 
+Release
+*/Release
