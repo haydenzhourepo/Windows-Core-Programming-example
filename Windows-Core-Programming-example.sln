@@ -16,6 +16,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04-ProcessInfo", "04-Proces
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05-JobLab", "05-JobLab\05-JobLab.vcxproj", "{ACDE98A9-9CEA-4EF0-A833-EEB8A7DDE6B8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08-Queue", "08-Queue\08-Queue.vcxproj", "{A82E15BB-DDE4-4796-99CA-C9341D772734}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{064B53C7-DD25-4795-ADF1-7450FB4F9A02}"
+	ProjectSection(SolutionItems) = preProject
+		CmnHdr.h = CmnHdr.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -56,6 +63,14 @@ Global
 		{ACDE98A9-9CEA-4EF0-A833-EEB8A7DDE6B8}.Release|x64.Build.0 = Release|x64
 		{ACDE98A9-9CEA-4EF0-A833-EEB8A7DDE6B8}.Release|x86.ActiveCfg = Release|Win32
 		{ACDE98A9-9CEA-4EF0-A833-EEB8A7DDE6B8}.Release|x86.Build.0 = Release|Win32
+		{A82E15BB-DDE4-4796-99CA-C9341D772734}.Debug|x64.ActiveCfg = Debug|x64
+		{A82E15BB-DDE4-4796-99CA-C9341D772734}.Debug|x64.Build.0 = Debug|x64
+		{A82E15BB-DDE4-4796-99CA-C9341D772734}.Debug|x86.ActiveCfg = Debug|Win32
+		{A82E15BB-DDE4-4796-99CA-C9341D772734}.Debug|x86.Build.0 = Debug|Win32
+		{A82E15BB-DDE4-4796-99CA-C9341D772734}.Release|x64.ActiveCfg = Release|x64
+		{A82E15BB-DDE4-4796-99CA-C9341D772734}.Release|x64.Build.0 = Release|x64
+		{A82E15BB-DDE4-4796-99CA-C9341D772734}.Release|x86.ActiveCfg = Release|Win32
+		{A82E15BB-DDE4-4796-99CA-C9341D772734}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
